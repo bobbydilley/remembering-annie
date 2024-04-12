@@ -5,6 +5,11 @@ body {
   font-family: "Libre Franklin", sans-serif;
 }
 
+@font-face {
+  font-family: BookAntiqua;
+  src: url(BookAntiqua.ttf);
+}
+
 header {
   background-image: url("../img/hero.png");
   background-size: cover;
@@ -82,18 +87,18 @@ footer {
 }
 
 .libre-franklin-medium {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "BookAntiqua", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 40px;
   padding-bottom: 2rem;
 }
 
 .libre-franklin-large {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "BookAntiqua", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 48px;
   padding-bottom: 2rem;
@@ -104,6 +109,9 @@ footer {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  margin: 0 1rem;
 }
 
 main {
