@@ -62,7 +62,8 @@ footer {
 
 .hero-box {
   background-color: white;
-  
+  border-radius: 10px;
+  padding: 4.5rem 2.5rem;
   display: inline-block;
   text-align: center;
   box-shadow: 0px 0px 8px 2px #0000001a;
@@ -116,8 +117,7 @@ footer {
 main {
   background-color: #e0def8;
   padding-top: 3rem;
-  border-top-left-radius: 50% 50px;
-  border-top-right-radius: 50% 50px;
+ 
   margin-top: -50px;
 }
 
