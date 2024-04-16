@@ -147,14 +147,14 @@ main {
     display: block;
   }
 
-  .container, .container-small {
+  .container,
+  .container-small {
     width: 95%;
   }
 
   .box {
     width: 100%;
     margin-bottom: 2rem;
-
   }
 
   .flex-end {
@@ -165,5 +165,9 @@ main {
   .hero-box {
     margin-top: 2rem;
     opacity: 0.8;
+  }
+
+  header {
+    background-image: url("../img/hero-mobile.png");
   }
 }
