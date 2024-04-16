@@ -22,6 +22,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-position: 0 0;
 }
 
 .flex {
@@ -67,6 +69,7 @@ footer {
   display: inline-block;
   text-align: center;
   box-shadow: 0px 0px 8px 2px #0000001a;
+  margin-top: -100px;
 }
 
 .box {
@@ -137,6 +140,22 @@ main {
   background-color: #8f8f8f;
 }
 
+.mobile-hero-box {
+  display: none;
+  margin-top: 0;
+  padding: 2rem 0;
+  width: 100%;
+
+  box-shadow: none;
+  border-radius: 0;
+
+  background-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  box-shadow: 0px 0px 8px 2px #0000001a;
+}
+
 @media (max-width: 1400px) {
   .flex {
     display: block;
@@ -145,11 +164,17 @@ main {
 
   header {
     display: block;
+    height: 70vh;
+    margin-bottom: 0;
   }
 
   .container,
   .container-small {
     width: 95%;
+  }
+
+  .container-small {
+    width: 100%;
   }
 
   .box {
@@ -160,13 +185,25 @@ main {
   .flex-end {
     display: block;
     text-align: center;
+
+    height: 100%;
+  }
+
+  header {
+    background-image: url("../img/hero-tablet.png");
+    background-position: 50% 10%;
   }
 
   .hero-box {
-    margin-top: 2rem;
-    opacity: 0.8;
+    display: none;
   }
 
+  .mobile-hero-box {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
   header {
     background-image: url("../img/hero-mobile.png");
   }
