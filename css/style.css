@@ -143,8 +143,8 @@ main {
 .mobile-hero-box {
   display: none;
   margin-top: 0;
-  padding: 2rem 0;
-  width: 100%;
+  padding: 3rem 5%;
+  width: 90%;
 
   box-shadow: none;
   border-radius: 0;
